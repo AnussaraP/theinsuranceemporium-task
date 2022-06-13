@@ -1,0 +1,656 @@
+<style>
+    .accordion-alpha summary {
+      cursor: pointer;
+    }
+  </style>
+  <link
+    rel="stylesheet"
+    href="https://www.theinsuranceemporium.co.uk/assets/css/website.css?version=355a800293df2e349e2f892eaa8f0428"
+  />
+  
+  <div>
+    <nav class="nav--main" id="nav">
+      <div class="nav--center">
+        <ul class="nav__items">
+          <li id="nav__home">
+            <div class="nav__hamburger" data-group="menu-item">
+              <span data-icon="menu"></span>
+            </div>
+            <a class="nav__item--home" href="/">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 64 64"
+                style="enable-background: new 0 0 64 64"
+                xml:space="preserve"
+                width="18"
+                height="18"
+                fill="#fff"
+              >
+                <use
+                  xlink:href="/assets/images/icons-svg/home-icon.svg#originals"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="nav__hideable mobile--home is-hidden" data-menulevel="1">
+            <a class="nav__item" accesskey="h" href="/">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 64 64"
+                style="enable-background: new 0 0 64 64"
+                xml:space="preserve"
+                width="18"
+                height="18"
+                fill="#fff"
+              >
+                <use
+                  xlink:href="/assets/images/icons-svg/home-icon.svg#originals"
+                ></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="has-dropdown nav__hideable" data-menulevel="1">
+            <a class="nav__item accordion-toggle" accesskey="p">Our Products</a>
+            <div class="nav__sub-menu">
+              <div class="nav__submenu--holder nav--animate-down">
+                <div class="col--1-5 nav__slide-in">
+                  <div class="nav__intro-box">
+                    <div class="nav__intro-box--title"><em>Our Products</em></div>
+                    <p class="l-marginbottom0 nav__intro-box--text">
+                      Take a look at the wide range of great products we offer and
+                      get protection for the things in life you love!
+                    </p>
+                  </div>
+                </div>
+                <div class="col--1-5 nav__slide-in mobile__menu">
+                  <div class="nav__submenu--list">
+                    <ul class="nav__level-2">
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="pet"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/pet">
+                          Pet
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-pet"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                        <ul
+                          class="nav__submenu--level2 nav__level-3"
+                          data-menulevel="3"
+                        >
+                          <li class="nav__submenu--product" data-product="dog">
+                            <a href="/products/pet/dog">Dog (Under 8)</a>
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="senior-dog"
+                          >
+                            <a href="/products/pet/senior-dog"
+                              >Senior Dog (Over 8)</a
+                            >
+                          </li>
+                          <li class="nav__submenu--product" data-product="cat">
+                            <a href="/products/pet/cat">Cat (Under 8)</a>
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="senior-cat"
+                          >
+                            <a href="/products/pet/senior-cat"
+                              >Senior Cat (Over 8)</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="equine"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/equine">
+                          Equine
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-equine"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                        <ul
+                          class="nav__submenu--level2 nav__level-3"
+                          data-menulevel="3"
+                        >
+                          <li>
+                            <a href="/products/equine/horse">Horse</a>
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="horse-veteran"
+                          >
+                            <a href="/products/equine/veteran-horse"
+                              >Veteran Horse</a
+                            >
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="horse-rider"
+                          >
+                            <a href="/products/equine/horse-rider">Horse Rider</a>
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="horse-trailer"
+                          >
+                            <a href="/products/equine/horse-trailer"
+                              >Horse Trailer</a
+                            >
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="horse-trailer-hire"
+                          >
+                            <a href="/products/equine/horse-trailer-hire"
+                              >Horse Trailer Hire</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="caravan"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/caravan">
+                          Caravan
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-caravan"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                        <ul
+                          class="nav__submenu--level2 nav__level-3"
+                          data-menulevel="3"
+                        >
+                          <li
+                            class="nav__submenu--product"
+                            data-product="touring-caravan"
+                          >
+                            <a href="/products/caravan/touring-caravan"
+                              >Touring Caravan</a
+                            >
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="static-caravan"
+                          >
+                            <a href="/products/caravan/static-caravan"
+                              >Static Caravan</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="wedding"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/wedding">
+                          Wedding
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-wedding"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                        <ul
+                          class="nav__submenu--level2 nav__level-3"
+                          data-menulevel="3"
+                        >
+                          <li>
+                            <a href="/products/wedding/uk-wedding">UK Wedding</a>
+                          </li>
+                          <li
+                            class="nav__submenu--product"
+                            data-product="wedding-overseas"
+                          >
+                            <a href="/products/wedding/overseas-wedding"
+                              >Overseas Wedding</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="camera"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/camera">
+                          Camera
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-camera"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="cycle"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/cycle">
+                          Cycle
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-cycle"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="music"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/music">
+                          Music
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-music"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="fishing"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/fishing">
+                          Fishing
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-fishing"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="golf"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/golf">
+                          Golf
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-golf"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        class="nav__btn nav__submenu--item nav__submenu--product"
+                        data-product="student"
+                        data-menulevel="2"
+                      >
+                        <a href="/products/student">
+                          Student
+                          <div class="nav__product-icon--holder">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xml:space="preserve"
+                              height="50"
+                              viewBox="0 0 500 500"
+                              width="50"
+                              version="1.0"
+                              y="0px"
+                              x="0px"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              fill="#fff"
+                            >
+                              <use
+                                xlink:href="/assets/images/icon-sprite.svg#i-student"
+                              ></use>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="nav__product--images">
+                  <div class="nav__image-holder"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-dropdown nav__hideable has__submenu" data-menulevel="1">
+            <a
+              href="/existing-customers"
+              class="nav__item accordion-toggle"
+              accesskey="e"
+              >Existing Customers</a
+            >
+            <div class="nav__sub-menu">
+              <div class="nav__submenu--holder nav--animate-down">
+                <div class="col--1-5 nav__slide-in">
+                  <div class="nav__intro-box">
+                    <div class="nav__intro-box--title">
+                      <em>Existing Customers</em>
+                    </div>
+                    <p class="l-marginbottom0 nav__intro-box--text">
+                      Everything you need to manage your account, all in one
+                      place. Making changes to your account needn’t be a hassle!
+                    </p>
+                  </div>
+                </div>
+                <div class="col--3-4 nav__slide-in">
+                  <div class="nav__submenu--list">
+                    <ul class="nav__level-2 mobile__submenu">
+                      <li class="nav__submenu--item mobile--hider">
+                        <a
+                          href="/existing-customers/manage-your-account"
+                          accesskey="y"
+                          ><strong>Manage Your Account</strong></a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="https://portal.theinsuranceemporium.co.uk/"
+                          accesskey="o"
+                          target="_blank"
+                          >My Emporium</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="/existing-customers/manage-your-account/renew-your-policy"
+                          accesskey="q"
+                          >Renew your policy</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="/existing-customers/manage-your-account/auto-renewal-opt-out"
+                          accesskey="q"
+                          >Auto Renewal Opt Out</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="/existing-customers/manage-your-account/get-new-policy-documents"
+                          accesskey="g"
+                          >Get new documentation</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="/existing-customers/manage-your-account/make-a-change"
+                          accesskey="m"
+                          >Make a change</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a
+                          href="/existing-customers/manage-your-account/make-a-claim"
+                          accesskey="d"
+                          >Make a claim</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-dropdown nav__hideable has__submenu" data-menulevel="1">
+            <a
+              href="/info-centre"
+              class="nav__item accordion-toggle"
+              accesskey="h"
+              >Info Centre</a
+            >
+            <div class="nav__sub-menu">
+              <div class="nav__submenu--holder nav--animate-down">
+                <div class="col--1-5 nav__slide-in">
+                  <div class="nav__intro-box">
+                    <div class="nav__intro-box--title"><em>Info Centre</em></div>
+                    <p class="l-marginbottom0 nav__intro-box--text">
+                      Need any information from us? Get in touch, read our FAQs or
+                      find out more about The Insurance Emporium!
+                    </p>
+                  </div>
+                </div>
+                <div class="col--3-4 nav__slide-in">
+                  <div class="nav__submenu--list">
+                    <ul class="nav__level-2 mobile__submenu">
+                      <li class="nav__submenu--item">
+                        <a href="/coronavirus" accesskey="z"
+                          >Coronavirus (COVID-19) Help and Support</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a href="/contact-us" accesskey="c">Contact Us</a>
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a href="/info-centre/customer-reviews" accesskey="v"
+                          >Customer Reviews</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a href="/info-centre/faq" accesskey="f">FAQs</a>
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a href="/info-centre/complaints" accesskey="x"
+                          >Complaints</a
+                        >
+                      </li>
+                      <li class="nav__submenu--item">
+                        <a href="/about-us" accesskey="u">About Us</a>
+                        <ul
+                          class="nav__submenu--level2 nav__level-3"
+                          data-menulevel="3"
+                        >
+                          <li>
+                            <a href="/about-us/what-is-the-insurance-emporium"
+                              >What is the Emporium?</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/about-us/be-green-like-mr-benn"
+                              >Be Green like Mr Benn</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/about-us/charities"
+                              >Charity Begins at Home</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__hideable">
+            <a
+              href="/blog/?aastandard=0"
+              class="nav__item nav__submenu--btn"
+              accesskey="n"
+              >Blog</a
+            >
+          </li>
+          <li class="nav__hideable">
+            <a
+              style="position: absolute; top: 0; right: 0"
+              href="https://portal.theinsuranceemporium.co.uk/"
+              class="ctaBox__button modal__trigger"
+              >Log in</a
+            >
+          </li>
+        </ul>
+  
+        <div id="nav__search-bar"></div>
+      </div>
+    </nav>
+  </div>
+  
+  <section class="l-marginbottom42 l-margintop42">
+    <details class="accordion-alpha accordion-alpha--alert">
+      <summary>Coronavirus (COVID-19) Update</summary>
+      <div>
+        <p>
+          The Insurance Emporium do not cover any claim as a result of any
+          notifiable disease. A notifiable disease is any disease that is required
+          by law to be reported to government authorities.
+        </p>
+        <p>
+          COVID-19 (Coronavirus) has now officially been registered as a
+          notifiable disease in the UK.
+        </p>
+        <p>
+          For up to date information, please check our
+          <a href="https://www.theinsuranceemporium.co.uk/coronavirus"
+            >COVID-19 Help and Support Page</a
+          >. For information on your policy, please refer to the General Exclusion
+          section of your Policy Wording.
+        </p>
+      </div>
+    </details>
+  </section>
+  
