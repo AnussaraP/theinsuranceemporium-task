@@ -1,4 +1,4 @@
-# The insurance Emporium - Tasks
+# The Insurance Emporium - Tasks
 
 # ANSWER:
 The component I've chosen is the Notice component ( Coronavirus (COVID-19) Update ). 
